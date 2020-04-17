@@ -1,0 +1,29 @@
+{
+	"properties": [
+		{
+			"name": "api.apiDataList",
+			"type": "java.util.List<org.coin.gonggongdata.vo.APIListVO.APIDataVO>",
+			"description": "API 리스트"
+		},
+		{
+			"name": "api.apiDataList.category",
+			"type": "java.lang.String",
+			"description": "데이터 유형"
+		},
+		{
+			"name": "api.apiDataList.apiList",
+			"type": "java.util.List<org.coin.gonggongdata.vo.APIListVO.APIDataVO.APIVO>",
+			"description": "공공 API를 가져오기 위한 설정"
+		},
+		{
+			"name": "api.apiDataList.apiList.location",
+			"type": "java.lang.String",
+			"description": "데이터의 지역 정보"
+		},
+		{
+			"name": "api.apiDataList.apiList.api",
+			"type": "java.lang.String",
+			"description": "API의 주소"
+		}
+	]
+}

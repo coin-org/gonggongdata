@@ -1,0 +1,1 @@
+spring:  application:    name: gonggongdata  cloud:    config:      uri: http://localhost:8081      logging:  level:    root: debug
